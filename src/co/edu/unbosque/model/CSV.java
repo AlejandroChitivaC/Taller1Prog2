@@ -6,14 +6,27 @@ import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * The type Csv.
+ */
 public class CSV {
     private List<Venta> csvList;
 
+    /**
+     * Instantiates a new Csv.
+     *
+     * @param localpath the localpath
+     */
     public CSV(String localpath) {
         csvList = new ArrayList<>();
         readFromPath(localpath);
     }
 
+    /**
+     * Read from path.
+     *
+     * @param localpath the localpath
+     */
     public void readFromPath(String localpath) {
         System.out.println("Reading a CSV using OpenCSV library");
         try {
@@ -43,11 +56,21 @@ public class CSV {
         }
     }
 
+    /**
+     * Gets csv list.
+     *
+     * @return the csv list
+     */
     public List<Venta> getCsvList() {
         return csvList;
     }
 
 
+    /**
+     * Sets csv list.
+     *
+     * @param csvList the csv list
+     */
     public void setCsvList(List<Venta> csvList) {
         this.csvList = csvList;
     }

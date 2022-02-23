@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7159312-c600-4bf1-a66e-b08e566bedbc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CHITIVA/co/edu/unbosque/controller/AplMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CHITIVA/co/edu/unbosque/controller/Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CHITIVA/co/edu/unbosque/model/CSV.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CHITIVA/co/edu/unbosque/model/Venta.class" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/intellij-javadocs-4.0.1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/edu/unbosque/controller/AplMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/unbosque/controller/AplMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/co/edu/unbosque/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/unbosque/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/edu/unbosque/model/CSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/unbosque/model/CSV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/edu/unbosque/model/Venta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/unbosque/model/Venta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/edu/unbosque/view/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/unbosque/view/View.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +90,7 @@
       <workItem from="1645574514254" duration="119000" />
       <workItem from="1645574684572" duration="19000" />
       <workItem from="1645624719203" duration="3964000" />
+      <workItem from="1645642889868" duration="601000" />
     </task>
     <servers />
   </component>
