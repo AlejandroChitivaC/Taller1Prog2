@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7159312-c600-4bf1-a66e-b08e566bedbc" name="Changes" comment="Summary method added to the CSV class">
+    <list default="true" id="e7159312-c600-4bf1-a66e-b08e566bedbc" name="Changes" comment="2 and 3 requirements are added succesfully.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/co/edu/unbosque/controller/AplMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/unbosque/controller/AplMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/co/edu/unbosque/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/unbosque/controller/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/co/edu/unbosque/model/CSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/unbosque/model/CSV.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/co/edu/unbosque/view/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/unbosque/view/View.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +26,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="4" />
@@ -94,7 +100,7 @@
       <workItem from="1645624719203" duration="3964000" />
       <workItem from="1645642889868" duration="3173000" />
       <workItem from="1645647984644" duration="562000" />
-      <workItem from="1645652571920" duration="864000" />
+      <workItem from="1645652571920" duration="4028000" />
     </task>
     <task id="LOCAL-00001" summary="JavaDoc added">
       <created>1645643668862</created>
@@ -110,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645648546987</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="2 and 3 requirements are added succesfully.">
+      <created>1645653471358</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1645653471358</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,6 +143,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="JavaDoc added" />
     <MESSAGE value="Summary method added to the CSV class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Summary method added to the CSV class" />
+    <MESSAGE value="2 and 3 requirements are added succesfully." />
+    <option name="LAST_COMMIT_MESSAGE" value="2 and 3 requirements are added succesfully." />
   </component>
 </project>
