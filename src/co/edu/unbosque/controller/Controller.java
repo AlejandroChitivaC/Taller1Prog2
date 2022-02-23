@@ -11,7 +11,7 @@ public class Controller {
 		csv = new CSV("csv/data.csv");
 		for (var i : csv.getCsvList()) {
 			System.out.println(i.toString());
-		
+
 
 		}
 	}
