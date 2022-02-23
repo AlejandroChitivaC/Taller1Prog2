@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7159312-c600-4bf1-a66e-b08e566bedbc" name="Changes" comment="JavaDoc added">
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+    <list default="true" id="e7159312-c600-4bf1-a66e-b08e566bedbc" name="Changes" comment="Summary method added to the CSV class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Taller1Prg2/co/edu/unbosque/controller/AplMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Taller1Prg2/co/edu/unbosque/controller/AplMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Taller1Prg2/co/edu/unbosque/controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Taller1Prg2/co/edu/unbosque/controller/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Taller1Prg2/co/edu/unbosque/model/CSV.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Taller1Prg2/co/edu/unbosque/model/CSV.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Taller1Prg2/co/edu/unbosque/model/Venta.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Taller1Prg2/co/edu/unbosque/model/Venta.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Taller1Prg2/co/edu/unbosque/model/findByInvoiceNo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/edu/unbosque/controller/AplMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/unbosque/controller/AplMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/co/edu/unbosque/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/unbosque/controller/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/co/edu/unbosque/model/CSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/unbosque/model/CSV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/edu/unbosque/view/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/unbosque/view/View.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +49,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -96,7 +93,8 @@
       <workItem from="1645574684572" duration="19000" />
       <workItem from="1645624719203" duration="3964000" />
       <workItem from="1645642889868" duration="3173000" />
-      <workItem from="1645647984644" duration="431000" />
+      <workItem from="1645647984644" duration="562000" />
+      <workItem from="1645652571920" duration="864000" />
     </task>
     <task id="LOCAL-00001" summary="JavaDoc added">
       <created>1645643668862</created>
@@ -105,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645643668862</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Summary method added to the CSV class">
+      <created>1645648546987</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1645648546987</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +129,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="JavaDoc added" />
-    <option name="LAST_COMMIT_MESSAGE" value="JavaDoc added" />
+    <MESSAGE value="Summary method added to the CSV class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Summary method added to the CSV class" />
   </component>
 </project>

@@ -55,7 +55,13 @@ public class CSV {
             e.printStackTrace();
         }
     }
-   public float Summary(){
+
+    /**
+     * Summary float.
+     *
+     * @return the float
+     */
+    public float Summary(){
         float total = 0;
         for(int i=0;i<csvList.size();i++){
             Venta aux=csvList.get(i);
@@ -67,6 +73,22 @@ public class CSV {
    }
 
     /**
+     * Find by invoice no list.
+     *
+     * @param search the search
+     * @return the list
+     */
+    public List<Venta> findByInvoiceNo(String search) {
+        List<Venta> list = new ArrayList<>();
+       for (Venta aux : csvList) {
+           if (aux.getInvoiceNo().equals(search)) {
+               list.add(aux);
+           }
+       }
+       return list;
+   }
+
+    /**
      * Gets csv list.
      *
      * @return the csv list
@@ -74,7 +96,6 @@ public class CSV {
     public List<Venta> getCsvList() {
         return csvList;
     }
-
 
 
     /**
