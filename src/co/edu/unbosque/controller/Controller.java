@@ -18,7 +18,8 @@ public class Controller {
 		for (var i : csv.getCsvList()) {
 			System.out.println(i.toString());
 
-
 		}
+		System.out.println(csv.Summary());
+		System.out.println(csv.getCsvList().get(0).getQuantity());
 	}
 }

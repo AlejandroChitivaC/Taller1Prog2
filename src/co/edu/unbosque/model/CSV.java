@@ -55,6 +55,16 @@ public class CSV {
             e.printStackTrace();
         }
     }
+   public float Summary(){
+        float total = 0;
+        for(int i=0;i<csvList.size();i++){
+            Venta aux=csvList.get(i);
+            float quantity=Float.parseFloat(aux.getQuantity());
+            float unitPrice=Float.parseFloat(aux.getUnitPrice());
+            total=total+(quantity*unitPrice);
+        }
+        return total;
+   }
 
     /**
      * Gets csv list.
@@ -64,6 +74,7 @@ public class CSV {
     public List<Venta> getCsvList() {
         return csvList;
     }
+
 
 
     /**
