@@ -4,13 +4,15 @@ import co.edu.unbosque.model.CSV;
 
 public class Controller {
 
-    private final CSV csv;
+	private final CSV csv;
 
-    public Controller() {
-        csv = new CSV("csv/data.csv");
 
-        for (var i : csv.getCsvList()) {
-            System.out.println(i.toString());
-        }
-    }
+	public Controller() {
+		csv = new CSV("csv/data.csv");
+		for (var i : csv.getCsvList()) {
+			System.out.println(i.toString());
+		
+
+		}
+	}
 }
