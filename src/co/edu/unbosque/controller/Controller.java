@@ -41,7 +41,7 @@ public class Controller {
 			String stockCode = view.pedirDato("Ingrese el StockCode que desea buscar");
 			stockCodes=csv.countByStockCode(stockCode);
 		}while (stockCodes.length()==0);
-		System.out.println(stockCodes);
+		System.out.println("La cantidad es: "+stockCodes);
 
 	}
 }
