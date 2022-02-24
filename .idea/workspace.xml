@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7159312-c600-4bf1-a66e-b08e566bedbc" name="Changes" comment="2 and 3 requirements are added succesfully.">
+    <list default="true" id="e7159312-c600-4bf1-a66e-b08e566bedbc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/co/edu/unbosque/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/unbosque/controller/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/co/edu/unbosque/model/CSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/unbosque/model/CSV.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,6 +101,10 @@
       <workItem from="1645642889868" duration="3173000" />
       <workItem from="1645647984644" duration="562000" />
       <workItem from="1645652571920" duration="4028000" />
+      <workItem from="1645665936986" duration="142000" />
+      <workItem from="1645666096932" duration="79000" />
+      <workItem from="1645666995395" duration="1999000" />
+      <workItem from="1645669141993" duration="698000" />
     </task>
     <task id="LOCAL-00001" summary="JavaDoc added">
       <created>1645643668862</created>
