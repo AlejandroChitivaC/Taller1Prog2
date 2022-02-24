@@ -6,10 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e7159312-c600-4bf1-a66e-b08e566bedbc" name="Changes" comment="add groupbycountry">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/co/edu/unbosque/controller/AplMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/unbosque/controller/AplMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/co/edu/unbosque/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/unbosque/controller/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/co/edu/unbosque/model/CSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/unbosque/model/CSV.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/co/edu/unbosque/view/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/unbosque/view/View.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +108,8 @@
       <workItem from="1645670112009" duration="882000" />
       <workItem from="1645671006086" duration="89000" />
       <workItem from="1645671138753" duration="321000" />
-      <workItem from="1645671491293" duration="405000" />
+      <workItem from="1645671491293" duration="425000" />
+      <workItem from="1645672063584" duration="2723000" />
     </task>
     <task id="LOCAL-00001" summary="JavaDoc added">
       <created>1645643668862</created>
@@ -147,7 +146,21 @@
       <option name="project" value="LOCAL" />
       <updated>1645670124478</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add groupbycountry">
+      <created>1645671903224</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1645671903224</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add groupbycountry">
+      <created>1645672068248</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1645672068248</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

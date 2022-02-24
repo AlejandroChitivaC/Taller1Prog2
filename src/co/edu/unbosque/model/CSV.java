@@ -124,47 +124,85 @@ public class CSV {
      * @param groupByCountry the group by country
      * @return the object
      */
-    public Object avgMonthlysales(boolean groupByCountry) {
-        Calendar calendar = new GregorianCalendar();
+    public String avgMonthlySales(boolean groupByCountry) {
 
-        double[] monthValues = new double[12];
-        int[] counter = new int[12];
-        HashMap<String, double[]> paisValues = new HashMap<>();
-        HashMap<String, int[]> paisValuesCounter = new HashMap<>();
+        ArrayList<String> pais = new ArrayList();
+        pais.add("");
+        ArrayList<Float> totalByCountry = new ArrayList<Float>();
+        totalByCountry.add((float) 0);
+        int j = 1;
+        int entrada = 0;
 
-        if (groupByCountry) {
+        if (groupByCountry == false) {
+
+            float total = Summary();
+            float avg = total / 12;
+            String salida = "Promedio mensual: " + String.valueOf(avg);
+            return salida;
+
+        } else if (groupByCountry) {
             for (int i = 0; i < csvList.size(); i++) {
-                Date transDate;
-                try {
-                    transDate = CORREC_DATE_FORMAT.parse(csvList.get(i).getInvoiceDate());
-                    calendar.setTime(transDate);
-                    int month = calendar.get(Calendar.MONTH);
-                    Double actualSale = Double.parseDouble(csvList.get(i).getQuantity()) * Double.parseDouble(csvList.get(i).getUnitPrice());
-                    String Pais = csvList.get(i).getCountry();
-                    var countrymonthValues = paisValues.get(Pais);
-                    var paisMonthValuesCounter = paisValuesCounter.get(Pais);
-                    if (countrymonthValues == null) {
-                        paisValues.put(Pais, new double[12]);
-                        paisValuesCounter.put(Pais, new int[12]);
-                        i--;
-                    } else {
-                        countrymonthValues[month] += actualSale;
-                        paisMonthValuesCounter[month]++;
-                        paisValues.put(Pais, countrymonthValues);
-                        paisValuesCounter.put(Pais, paisMonthValuesCounter);
-                    }
-                } catch (ParseException e) {
-                    e.printStackTrace();
+                Venta auxiliar = csvList.get(i);
+                int index = pais.indexOf(auxiliar.getCountry());
+                if (index == -1) {
+                    pais.add(index + j, auxiliar.getCountry());
+                    j++;
                 }
-                calendar.setTime(transDate);
+            }
+            for (int i = 0; i < csvList.size(); i++) {
+                Venta aux = csvList.get(i);
+                int index = pais.indexOf(aux.getCountry());
+
+                float a = Float.parseFloat(aux.getQuantity());
+                float b = Float.parseFloat(aux.getUnitPrice());
+
+                float mul = a * b;
+                if (index <= entrada) {
+                    float total = totalByCountry.get(index) + mul;
+                    totalByCountry.remove(index);
+                    totalByCountry.add(index, total);
+                } else {
+                    entrada++;
+                    float total = mul;
+                    totalByCountry.add(index, total);
+                }
+
             }
 
+            float total = Summary();
+            float average = total / 12;
+            String salida = "Average Monthly Sales: " + String.valueOf(average) + "\n";
+
+            for (int i = 0; i < totalByCountry.size(); i++) {
+                float avg = totalByCountry.get(i) / 12;
+                totalByCountry.remove(i);
+                totalByCountry.add(i, avg);
+
+                salida += pais.get(i) + ": " + totalByCountry.get(i) + "\n";
+            }
+
+
+            return salida;
         }
 
+        return "";
+    }
+
+    /**
+     * Gets csv list.
+     *
+     * @return the csv list
+     */
     public List<Venta> getCsvList() {
         return csvList;
     }
 
+    /**
+     * Sets csv list.
+     *
+     * @param csvList the csv list
+     */
     public void setCsvList(List<Venta> csvList) {
         this.csvList = csvList;
     }
+}
