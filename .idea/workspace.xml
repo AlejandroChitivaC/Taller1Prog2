@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7159312-c600-4bf1-a66e-b08e566bedbc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/co/edu/unbosque/model/CSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/edu/unbosque/model/CSV.java" afterDir="false" />
-    </list>
+    <list default="true" id="e7159312-c600-4bf1-a66e-b08e566bedbc" name="Changes" comment="add groupbycountry" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -104,7 +100,7 @@
       <workItem from="1645665936986" duration="142000" />
       <workItem from="1645666096932" duration="79000" />
       <workItem from="1645666995395" duration="1999000" />
-      <workItem from="1645669141993" duration="698000" />
+      <workItem from="1645669141993" duration="953000" />
     </task>
     <task id="LOCAL-00001" summary="JavaDoc added">
       <created>1645643668862</created>
@@ -127,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645653471358</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add groupbycountry">
+      <created>1645670045882</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1645670045882</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,6 +151,7 @@
     <MESSAGE value="JavaDoc added" />
     <MESSAGE value="Summary method added to the CSV class" />
     <MESSAGE value="2 and 3 requirements are added succesfully." />
-    <option name="LAST_COMMIT_MESSAGE" value="2 and 3 requirements are added succesfully." />
+    <MESSAGE value="add groupbycountry" />
+    <option name="LAST_COMMIT_MESSAGE" value="add groupbycountry" />
   </component>
 </project>
