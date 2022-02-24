@@ -42,6 +42,6 @@ public class Controller {
 			stockCodes=csv.countByStockCode(stockCode);
 		}while (stockCodes.length()==0);
 		System.out.println("La cantidad es: "+stockCodes);
-
+		System.out.println(csv.avgMonthlysales());
 	}
 }

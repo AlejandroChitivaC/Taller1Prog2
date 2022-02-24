@@ -13,6 +13,7 @@ public class CSV {
     private static final Object CORREC_DATE_FORMAT = "dd/MM/yyyy";
     private List<Venta> csvList;
 
+
     /**
      * Instantiates a new Csv.
      *
@@ -89,6 +90,12 @@ public class CSV {
         return list;
     }
 
+    /**
+     * Count by stock code string.
+     *
+     * @param stockCode the stock code
+     * @return the string
+     */
     public String countByStockCode(String stockCode) {
 
         String solution = "";
@@ -111,6 +118,12 @@ public class CSV {
         return solution;
     }
 
+    /**
+     * Avg monthlysales object.
+     *
+     * @param groupByCountry the group by country
+     * @return the object
+     */
     public Object avgMonthlysales(boolean groupByCountry) {
         Calendar calendar = new GregorianCalendar();
 
@@ -129,16 +142,16 @@ public class CSV {
                     Double actualSale = Double.parseDouble(csvList.get(i).getQuantity()) * Double.parseDouble(csvList.get(i).getUnitPrice());
                     String Pais = csvList.get(i).getCountry();
                     var countrymonthValues = paisValues.get(Pais);
-                    var paismonthValuesCounter = paisValuesCounter.get(Pais);
+                    var paisMonthValuesCounter = paisValuesCounter.get(Pais);
                     if (countrymonthValues == null) {
                         paisValues.put(Pais, new double[12]);
                         paisValuesCounter.put(Pais, new int[12]);
                         i--;
                     } else {
                         countrymonthValues[month] += actualSale;
-                        paismonthValuesCounter[month]++;
+                        paisMonthValuesCounter[month]++;
                         paisValues.put(Pais, countrymonthValues);
-                        paisValuesCounter.put(Pais, paismonthValuesCounter);
+                        paisValuesCounter.put(Pais, paisMonthValuesCounter);
                     }
                 } catch (ParseException e) {
                     e.printStackTrace();
@@ -146,23 +159,12 @@ public class CSV {
                 calendar.setTime(transDate);
             }
 
+        }
 
-            /**
-             * Gets csv list.
-             *
-             * @return the csv list
-             */
-         /*   public List<Venta> getCsvList () {
-                return csvList;
-            }
+    public List<Venta> getCsvList() {
+        return csvList;
+    }
 
-
-            /**
-             * Sets csv list.
-             *
-             * @param csvList the csv list
-             */
-            /*public void setCsvList(List < Venta > csvList) {
-                this.csvList = csvList;
-            }*/
-        }/*
+    public void setCsvList(List<Venta> csvList) {
+        this.csvList = csvList;
+    }
